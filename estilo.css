@@ -1,0 +1,83 @@
+body {
+  font-size: 20px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(236, 236, 236); /* definir cor do fundo*/
+  border-radius: 5px;
+  padding: 1%;
+}
+header .profile img {
+  width: 96px;
+  height: 96px;
+  border-radius: 100%;
+  margin: 9px;
+}
+
+header .links a {
+  text-decoration: none;
+  color: rgb(0, 89, 255);
+  font-weight: bold;
+  margin: 0 10px;
+  font-size: 15px;
+}
+
+.descricao {
+  text-align: center;
+  margin: 20px;
+}
+
+.conteudo {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.bloco {
+    width: 30%;
+    background-color: rgb(236, 236, 236) ;
+    border-radius: 5px;
+    padding: 15px;
+    border: 1px solid rgb(228, 228, 228);
+}
+
+.falacomigo{
+text-align: center;
+margin: 20px;
+}
+
+form{
+    display: inline-block;
+    text-align: left;
+}
+
+form label{
+    display: block;
+    margin: 5px 0;
+}
+
+form input{
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid rgb(255, 255, 255)olid ;
+    border-radius: 8px; 
+}
+
+
+.conteudoo {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+  }
+  
+  .bloc {
+      width: 30%;
+      background-color: rgb(236, 236, 236) ;
+      border-radius: 5px;
+      padding: 15px;
+      border: 1px solid rgb(228, 228, 228);
+  }
